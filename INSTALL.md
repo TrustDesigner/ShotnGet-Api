@@ -10,10 +10,7 @@ apt-get install php5-gd
 
 Now in a different directory, create a **certphone** directory (ex: /usr/certphone). We recommand to not place this directory inside the website directories (/var/www) because the private key will be stored here.
 
-Inside this directory, create three others :
-  - path_to_certphone/temp
-  - path_to_certphone/Certificates
-  - path_to_certphone/Keys
+Inside this directory, create another : ```path_to_certphone/temp```
 
 Now create the private and public key used by the server to encrypt / decipher exchanges between the smartphone and the server.
 ```bat
